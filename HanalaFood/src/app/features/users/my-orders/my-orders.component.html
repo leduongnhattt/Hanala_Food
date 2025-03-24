@@ -1,0 +1,32 @@
+<div class="container mt-3">
+  <div class="d-flex justify-content-between">
+    <h2>Order History</h2>
+    <div class="back-button btn" routerLink="/home">Back</div>
+  </div>
+  <a href="#" class="text-primary">All Order ({{ orders.length }})</a>
+
+  <div class="list-group">
+    <div class="d-flex order-header my-3 me-4">
+      <strong class="order-item">Item</strong>
+      <strong class="order-status">Status</strong>
+      <strong class="order-total">Total</strong>
+      <strong class="order-details">Details</strong>
+    </div>
+    <div *ngFor="let order of orders" class="list-group-item d-flex align-items-center">
+      <div class="d-flex align-items-center order-item">
+        <img [src]="order.image" alt="" class="order-img">
+        <div class="d-flex flex-column ms-3">
+          <strong>{{ order.name }}</strong>
+          <div class="order-quantity">{{ order.quantity }}</div>
+        </div>
+      </div>
+
+      <span class="order-status"
+        [ngClass]="{'text-warning': order.status === 'Pending', 'text-success': order.status === 'Delivered'}">
+        {{ order.status }}
+      </span>
+      <strong class="order-total">${{ order.total }}</strong>
+      <button class="btn btn-primary order-details" routerLink="/order-detail">Order Details</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+.btn-link {
+  color: #007bff;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+.bg-light-green {
+  background-color: #d1e7dd !important; /* Bootstrap success background */
+  border-radius: 8px;
+}

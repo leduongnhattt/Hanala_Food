@@ -1,0 +1,56 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-warning" href="/">
+      <img src="assets/images/food-truck.png" width="30" class="me-2">
+      Hanala Food
+    </a>
+    <div class="d-flex ms-5 justify-content-end">
+      <!-- Nút mở chatbox từ nút Support -->
+      <button class="btn btn-outline-warning me-2" (click)="toggleChatbox()">
+        <i class="bi bi-life-preserver"></i> Support
+      </button>
+      <div class="chat-container" *ngIf="isChatboxVisible">
+        <div class="chatbox">
+          <div class="chat-header">
+            <span>Hanala System</span>
+            <button class="btn-close" (click)="toggleChatbox()"></button>
+          </div>
+
+          <div class="chat-messages">
+            <div *ngFor="let msg of messages" class="message" [ngClass]="msg.type">
+              {{ msg.text }}
+            </div>
+          </div>
+
+          <div class="chat-input">
+            <input type="text" class="form-control" placeholder="Write something..." [(ngModel)]="newMessage"
+              (keyup.enter)="sendMessage()">
+            <button class="btn btn-success" (click)="sendMessage()">
+              <i class="bi bi-send"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-outline-warning me-2" routerLink="/discount">
+        <i class="bi bi-tags"></i> Discount
+      </button>
+      <button class="btn btn-outline-warning me-2" routerLink="/profile">
+        <i class="bi bi-person-circle"></i> Profile
+      </button>
+      <button class="btn btn-outline-warning me-2" routerLink="/my-orders">
+        <i class="bi bi-cart"></i> Order
+      </button>
+
+      <!-- Hiển thị Sign In/Sign Up nếu chưa đăng nhập -->
+      <ng-container *ngIf="!authService.isLoggedIn(); else loggedIn">
+        <button class="btn btn-warning me-2" routerLink="/login">Sign In</button>
+        <button class="btn btn-warning" routerLink="/register">Sign Up</button>
+      </ng-container>
+
+      <!-- Hiển thị Sign Out nếu đã đăng nhập -->
+      <ng-template #loggedIn>
+        <button class="btn btn-danger" (click)="logout()">Sign Out</button>
+      </ng-template>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,61 @@
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="row shadow-lg rounded-4 overflow-hidden bg-light" style="width: 1000px;">
+    <div class="col-md-6 p-5">
+      <div class="text-center">
+        <h2 class="fw-bold">WELCOME BACK</h2>
+        <p class="text-muted">Welcome back! Please enter your account</p>
+      </div>
+
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <!-- Username -->
+        <label class="fw-bold mt-3">Username</label>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Enter your username" formControlName="username">
+          <small class="text-danger"
+            *ngIf="loginForm.controls['username'].invalid && loginForm.controls['username'].touched">
+            Username is required
+          </small>
+        </div>
+
+        <!-- Password -->
+        <label class="fw-bold">Password</label>
+        <div class="mb-3 position-relative">
+          <input [type]="isPasswordVisible ? 'text' : 'password'" class="form-control" placeholder="Enter your password"
+            formControlName="password">
+          <span class="position-absolute top-50 end-0 translate-middle-y me-3" (click)="togglePassword()">
+            <i [class]="isPasswordVisible ? 'bi bi-eye' : 'bi bi-eye-slash'"></i>
+          </span>
+          <small class="text-danger"
+            *ngIf="loginForm.controls['password'].invalid && loginForm.controls['password'].touched">
+            Password must be at least 6 characters
+          </small>
+        </div>
+
+        <!-- Forgot password -->
+        <div class="text-end">
+          <a href="#" class="text-decoration-none">Forgot password</a>
+        </div>
+
+        <!-- Sign in Button -->
+        <button type="submit" class="btn btn-danger w-100 mt-3" [disabled]="loginForm.invalid">Sign in</button>
+      </form>
+
+      <!-- Sign in with Google -->
+      <button class="btn btn-light w-100 mt-3 border d-flex align-items-center justify-content-center">
+        <img src="assets/images/icon_google.png" width="20" class="me-2"> Sign in with Google
+      </button>
+
+      <!-- Signup -->
+      <p class="text-center mt-3">Don't have an account?
+        <a href="#" class="text-danger fw-bold text-decoration-none" routerLink="/register">Sign up for free!</a>
+      </p>
+    </div>
+
+    <!-- Cột phải: Logo -->
+    <div class="col-md-6 d-flex justify-content-center align-items-center bg-white">
+      <div class="text-center">
+        <img src="assets/images/logo.png" class="login-logo">
+      </div>
+    </div>
+  </div>
+</div>

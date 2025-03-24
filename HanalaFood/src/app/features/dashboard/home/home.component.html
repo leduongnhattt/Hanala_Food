@@ -1,0 +1,325 @@
+<app-nav></app-nav>
+<div class="hero">
+  <div class="hero-text" style="margin-left: 350px;">
+    <h1>Are you starving?</h1>
+    <p>Within a few clicks, find meals that are accessible near you</p>
+    <div class="search-box mt-3">
+      <input type="text" placeholder="Enter your food..." [(ngModel)]="searchText"
+        (ngModelChange)="onSearchTextChange()">
+      <button class="btn btn-warning" (click)="searchFood()">
+        <i class="bi bi-search"></i> Find Food
+      </button>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="assets/images/food_2.jpg" alt="Ramen" width="400">
+  </div>
+</div>
+<app-food-list *ngIf="isSearching" [foods]="filteredItems"></app-food-list>
+<div *ngIf="!isSearching">
+  <div class="container mt-5 g-2">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card border-0 shadow card-1">
+          <div class="position-relative">
+            <img src="assets/images/item1.jpg" class="card-img-top" alt="Salad">
+            <div class="discount-badge">15% Off</div>
+          </div>
+          <div class="card-body">
+            <h5 class="mt-2">Salad</h5>
+            <p class="remaining-badge">6 Days Remaining</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card border-0 shadow card-1">
+          <div class="position-relative">
+            <img src="assets/images/item1.jpg" class="card-img-top" alt="Greys Vage">
+            <div class="discount-badge">15% Off</div>
+          </div>
+          <div class="card-body">
+            <h5 class="mt-2">Greys Vage</h5>
+            <p class="remaining-badge">6 Days Remaining</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card border-0 shadow card-1">
+          <div class="position-relative">
+            <img src="assets/images/item1.jpg" class="card-img-top" alt="Vegetables">
+            <div class="discount-badge">25% Off</div>
+          </div>
+          <div class="card-body">
+            <h5 class="mt-2">Vegetables</h5>
+            <p class="remaining-badge">7 Days Remaining</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card border-0 shadow card-1">
+          <div class="position-relative">
+            <img src="assets/images/item1.jpg" class="card-img-top" alt="Greys Vage">
+            <div class="discount-badge">20% Off</div>
+          </div>
+          <div class="card-body">
+            <h5 class="mt-2">Greys Vage</h5>
+            <p class="remaining-badge">8 Days Remaining</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Container 2-->
+  <div class="containers mt-5">
+    <h3 class="fw-bold text-center">Popular items</h3>
+    <div class="d-flex align-items-center justify-content-center mt-3">
+      <button class="carousel-btn prev-btn mx-3" (click)="prev()"><i class="bi bi-chevron-left"></i></button>
+      <div class="cards-container">
+        <div class="cards-wrapper" [style.transform]="transformStyle">
+          <div *ngFor="let item of items" class="cards food-card border-0 shadow">
+            <img [src]="item.image" class="card-img-top" [alt]="item.name">
+            <div class="card-body">
+              <h6 class="fw-bold">{{ item.name }}</h6>
+              <p class="text-warning mb-1"><i class="bi bi-geo-alt"></i> {{ item.location }}</p>
+              <p class="fw-bold">{{ item.price }}</p>
+              <button class="btn btn-warning" routerLink="/order">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-btn next-btn ms-3" (click)="next()"><i class="bi bi-chevron-right"></i></button>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h3 class="fw-bold text-center mb-2">Featured Restaurants</h3>
+    <div class="row justify-content-center">
+      <!-- Foodworld -->
+      <div class="col-md-3 mb-4">
+        <div class="card restaurant-card border-0 shadow">
+          <div class="position-relative">
+            <img src="assets/images/item1.jpg" class="card-img-top" alt="Foodworld Dish">
+            <div class="badges">
+              <span class="badge discount">
+                <i class="fas fa-tag"></i> 20% off
+              </span>
+              <span class="badge fast">
+                <i class="fas fa-clock"></i> Fast
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="info">
+              <div class="logo">
+                <img src="assets/images/food-truck.png" alt="SUBWAY Logo">
+              </div>
+              <div class="info-text">
+                <h5>Donuts hut</h5>
+                <p class="rating"><i class="bi bi-star-fill"></i> 50</p>
+              </div>
+            </div>
+            <button class="btn btn-outline-warning w-100">Opens tomorrow</button>
+          </div>
+        </div>
+      </div>
+      <!-- Pizzahub -->
+      <div class="col-md-3 mb-4">
+        <div class="card restaurant-card border-0 shadow">
+          <div class="position-relative">
+            <img src="assets/images/item1.jpg" class="card-img-top" alt="Pizzahub Drink">
+            <div class="badges">
+              <span class="badge discount">
+                <i class="fas fa-tag"></i> 20% off
+              </span>
+              <span class="badge fast">
+                <i class="fas fa-clock"></i> Fast
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="info">
+              <div class="logo">
+                <img src="assets/images/food-truck.png" alt="SUBWAY Logo">
+              </div>
+              <div class="info-text">
+                <h5>Donuts hut</h5>
+                <p class="rating"><i class="bi bi-star-fill"></i> 50</p>
+              </div>
+            </div>
+            <button class="btn btn-outline-warning w-100">Opens tomorrow</button>
+          </div>
+        </div>
+      </div>
+      <!-- Donuts Hut (Pancakes) -->
+      <div class="col-md-3 mb-4">
+        <div class="card restaurant-card border-0 shadow">
+          <div class="position-relative">
+            <img src="assets/images/item1.jpg" class="card-img-top" alt="Donuts Hut Pancakes">
+            <div class="badges">
+              <span class="badge discount">
+                <i class="fas fa-tag"></i> 20% off
+              </span>
+              <span class="badge fast">
+                <i class="fas fa-clock"></i> Fast
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="info">
+              <div class="logo">
+                <img src="assets/images/food-truck.png" alt="SUBWAY Logo">
+              </div>
+              <div class="info-text">
+                <h5>Donuts hut</h5>
+                <p class="rating"><i class="bi bi-star-fill"></i> 50</p>
+              </div>
+            </div>
+            <button class="btn btn-success w-100" routerLink="/order">Open Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- Donuts Hut (Cupcakes) -->
+      <div class="col-md-3 mb-4">
+        <div class="card restaurant-card border-0 shadow">
+          <div class="position-relative">
+            <img src="assets/images/item1.jpg" class="card-img-top" alt="Donuts Hut Cupcakes">
+            <div class="badges">
+              <span class="badge discount">
+                <i class="fas fa-tag"></i> 20% off
+              </span>
+              <span class="badge fast">
+                <i class="fas fa-clock"></i> Fast
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="info">
+              <div class="logo">
+                <img src="assets/images/food-truck.png" alt="SUBWAY Logo">
+              </div>
+              <div class="info-text">
+                <h5>Donuts hut</h5>
+                <p class="rating"><i class="bi bi-star-fill"></i> 50</p>
+              </div>
+            </div>
+            <button class="btn btn-success w-100" routerLink="/order">Open Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card restaurant-card border-0 shadow">
+          <div class="position-relative">
+            <img src="assets/images/item1.jpg" class="card-img-top" alt="Donuts Hut Cupcakes">
+            <div class="badges">
+              <span class="badge discount">
+                <i class="fas fa-tag"></i> 20% off
+              </span>
+              <span class="badge fast">
+                <i class="fas fa-clock"></i> Fast
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="info">
+              <div class="logo">
+                <img src="assets/images/food-truck.png" alt="SUBWAY Logo">
+              </div>
+              <div class="info-text">
+                <h5>Donuts hut</h5>
+                <p class="rating"><i class="bi bi-star-fill"></i> 50</p>
+              </div>
+            </div>
+            <button class="btn btn-success w-100" routerLink="/order">Open Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card restaurant-card border-0 shadow">
+          <div class="position-relative">
+            <img src="assets/images/item1.jpg" class="card-img-top" alt="Donuts Hut Cupcakes">
+            <div class="badges">
+              <span class="badge discount">
+                <i class="fas fa-tag"></i> 20% off
+              </span>
+              <span class="badge fast">
+                <i class="fas fa-clock"></i> Fast
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="info">
+              <div class="logo">
+                <img src="assets/images/food-truck.png" alt="SUBWAY Logo">
+              </div>
+              <div class="info-text">
+                <h5>Donuts hut</h5>
+                <p class="rating"><i class="bi bi-star-fill"></i> 50</p>
+              </div>
+            </div>
+            <button class="btn btn-success w-100" routerLink="/order">Open Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card restaurant-card border-0 shadow">
+          <div class="position-relative">
+            <img src="assets/images/item1.jpg" class="card-img-top" alt="Donuts Hut Cupcakes">
+            <div class="badges">
+              <span class="badge discount">
+                <i class="fas fa-tag"></i> 20% off
+              </span>
+              <span class="badge fast">
+                <i class="fas fa-clock"></i> Fast
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="info">
+              <div class="logo">
+                <img src="assets/images/food-truck.png" alt="SUBWAY Logo">
+              </div>
+              <div class="info-text">
+                <h5>Donuts hut</h5>
+                <p class="rating"><i class="bi bi-star-fill"></i> 50</p>
+              </div>
+            </div>
+            <button class="btn btn-success w-100" routerLink="/order">Open Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card restaurant-card border-0 shadow">
+          <div class="position-relative">
+            <img src="assets/images/item1.jpg" class="card-img-top" alt="Donuts Hut Cupcakes">
+            <div class="badges">
+              <span class="badge discount">
+                <i class="fas fa-tag"></i> 20% off
+              </span>
+              <span class="badge fast">
+                <i class="fas fa-clock"></i> Fast
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="info">
+              <div class="logo">
+                <img src="assets/images/food-truck.png" alt="SUBWAY Logo">
+              </div>
+              <div class="info-text">
+                <h5>Donuts hut</h5>
+                <p class="rating"><i class="bi bi-star-fill"></i> 50</p>
+              </div>
+            </div>
+            <button class="btn btn-success w-100" routerLink="/order">Open Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <button class="btn btn-warning btn-lg fw-bold px-4 py-2 rounded-pill text-white text-center mb-3">
+        View All <i class="fa-solid fa-angle-right"></i>
+      </button>
+    </div>
+  </div>
+</div>

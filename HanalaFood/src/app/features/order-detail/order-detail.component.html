@@ -1,0 +1,71 @@
+<div class="container mt-3">
+  <!-- Header -->
+  <div class="d-flex justify-content-between align-items-center">
+    <h2>Order Details</h2>
+    <button class="btn btn-warning" routerLink="/my-orders">Back</button>
+  </div>
+
+  <!-- Restaurant Info and Rating -->
+  <div class="d-flex align-items-center justify-content-between mt-3">
+    <div class="d-flex align-items-center">
+      <img src="assets/images/item1.jpg" alt="Restaurant Logo" class="me-3" width="80" height="80">
+      <div>
+        <h5>Hamburger France Restaurant</h5>
+        <p class="text-muted"><i class="bi bi-geo-alt-fill text-danger"></i> Paris, France</p>
+      </div>
+    </div>
+    <div>
+      <strong>Rate:</strong>
+      <span class="text-warning mx-2" style="font-size: 1.5rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+    </div>
+  </div>
+
+  <!-- Reorder Button -->
+  <div class="text-end mt-2">
+    <button class="btn btn-primary">Reorder</button>
+  </div>
+
+  <!-- Order Summary -->
+  <h5 class="mt-4 text-primary">Order Summary</h5>
+  <table class="table">
+    <tbody>
+      <tr>
+        <td>1x</td>
+        <td class="text-center">Pizza Italia</td>
+        <td class="text-danger text-end">$9.89</td>
+      </tr>
+      <tr>
+        <td>1x</td>
+        <td class="text-center">Pizza Italia</td>
+        <td class="text-danger text-end">$9.89</td>
+      </tr>
+      <tr>
+        <td>1x</td>
+        <td class="text-center">Pizza Italia</td>
+        <td class="text-danger text-end">$9.89</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Pricing Details -->
+  <table class="table mt-3">
+    <tbody>
+      <tr>
+        <td><strong>Subtotal:</strong></td>
+        <td class="text-danger text-end">$29.67</td>
+      </tr>
+      <tr>
+        <td><strong>Applicable fees:</strong></td>
+        <td class="text-danger text-end">- $2</td>
+      </tr>
+      <tr>
+        <td><strong>Discount:</strong></td>
+        <td class="text-info text-end">x 5%</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="d-flex justify-content-between align-items-center">
+    <h4><strong>Total:</strong></h4>
+    <h4 class="text-dark">💵 $26.32</h4>
+  </div>
+</div>

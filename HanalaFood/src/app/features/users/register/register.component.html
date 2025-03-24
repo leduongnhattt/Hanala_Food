@@ -1,0 +1,70 @@
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="row shadow-lg rounded-4 overflow-hidden bg-light" style="width: 1000px;">
+    <div class="col-md-6 p-5">
+      <h2 class="fw-bold text-center">SIGN UP</h2>
+      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <!-- Username -->
+        <label class="fw-bold mt-3">Username</label>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Enter your username" formControlName="username">
+          <small class="text-danger"
+            *ngIf="registerForm.controls['username'].invalid && registerForm.controls['username'].touched">
+            Username is required
+          </small>
+        </div>
+
+        <!-- Email -->
+        <label class="fw-bold">Email</label>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Enter your email" formControlName="email">
+          <small class="text-danger"
+            *ngIf="registerForm.controls['email'].invalid && registerForm.controls['email'].touched">
+            Enter a valid email
+          </small>
+        </div>
+
+        <!-- Password -->
+        <label class="fw-bold">Password</label>
+        <div class="mb-3 position-relative">
+          <input [type]="isPasswordVisible ? 'text' : 'password'" class="form-control" placeholder="Enter your password"
+            formControlName="password">
+          <span class="position-absolute top-50 end-0 translate-middle-y me-3" (click)="togglePassword('password')">
+            <i [class]="isPasswordVisible ? 'bi bi-eye' : 'bi bi-eye-slash'"></i>
+          </span>
+          <small class="text-danger"
+            *ngIf="registerForm.controls['password'].invalid && registerForm.controls['password'].touched">
+            Password must be at least 6 characters
+          </small>
+        </div>
+        <!-- Confirm Password -->
+        <label class="fw-bold">Confirm Password</label>
+        <div class="mb-3 position-relative">
+          <input [type]="isConfirmPasswordVisible ? 'text' : 'password'" class="form-control"
+            placeholder="Enter your confirm password" formControlName="confirmPassword">
+          <span class="position-absolute top-50 end-0 translate-middle-y me-3"
+            (click)="togglePassword('confirmPassword')">
+            <i [class]="isConfirmPasswordVisible ? 'bi bi-eye' : 'bi bi-eye-slash'"></i>
+          </span>
+          <small class="text-danger"
+            *ngIf="registerForm.hasError('passwordMismatch') && registerForm.controls['confirmPassword'].touched">
+            Passwords do not match
+          </small>
+        </div>
+
+
+        <!-- Sign Up Button -->
+        <button type="submit" class="btn btn-danger w-100 mt-3" [disabled]="registerForm.invalid">Sign Up</button>
+      </form>
+
+      <p class="text-center mt-3">Already have an account?
+        <a href="#" class="text-danger fw-bold text-decoration-none" routerLink="/login">Sign In!</a>
+      </p>
+    </div>
+
+    <div class="col-md-6 d-flex justify-content-center align-items-center bg-white">
+      <div class="text-center">
+        <img src="assets/images/logo.png" class="login-logo">
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="container mt-4">
+  <h3>List Discount</h3>
+
+  <!-- Input nhập mã giảm giá -->
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Enter your coupon" [(ngModel)]="newCoupon">
+    <button class="btn btn-dark" (click)="addCoupon()">Add Coupon</button>
+  </div>
+
+  <!-- Danh sách mã giảm giá -->
+  <div *ngFor="let coupon of coupons" class="d-flex align-items-center p-3 mb-2 bg-light-green text-dark">
+    <i class="bi bi-ticket-perforated text-success fs-4 me-2"></i>
+    <div class="flex-grow-1">
+      <strong>{{ coupon.code }} - {{ coupon.discount }}%</strong>
+      <div class="text-muted small">EXP: {{ coupon.expiry }}</div>
+    </div>
+    <button class="btn btn-link text-decoration-none text-dark" (click)="copyCoupon(coupon.code)">
+      <i class="bi bi-clipboard"></i> Copy
+    </button>
+  </div>
+
+  <!-- Nút quay lại -->
+  <div class="text-center mt-3">
+    <button class="btn btn-warning px-4" routerLink="/home">Back</button>
+  </div>
+</div>

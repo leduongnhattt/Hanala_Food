@@ -1,0 +1,356 @@
+body {
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  overflow-x: hidden;
+}
+
+.hero {
+  width: 99vw;
+  height: 50vh;
+  background: linear-gradient(to right, #ffcc33, #ff9900);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  border-radius: 0;
+}
+.hero-text {
+  max-width: 500px;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-warning {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-warning:hover {
+  background-color: #ffcc33;
+  box-shadow: 0px 5px 15px rgba(255, 153, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.btn-warning:active {
+  transform: scale(0.95);
+}
+
+.btn-outline-warning {
+  border-color: #ff9900;
+  color: #ff9900;
+  font-weight: bold;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ff9900;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(255, 153, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.btn-outline-warning:active {
+  transform: scale(0.95);
+}
+.search-box {
+  display: flex;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+.search-box input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding: 10px;
+}
+.search-box button {
+  background: #ff5733;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero-image img {
+  height: 300px;
+  width: 500px;
+  border-radius: 760px;
+}
+.card {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-1 {
+  width: 320px;
+  height: 415px;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+  width: 100%;
+  height: 301px;
+  object-fit: cover;
+}
+
+.discount-badge {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #ffc107;
+  color: #fcfcfc;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+.remaining-badge {
+  display: inline-block;
+  background-color: #ffe6d5;
+  color: #f16624;
+  padding: 5px 12px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.food-card {
+  width: 264px;
+}
+.food-card img {
+  border-radius: 10px;
+  height: 283px;
+  object-fit: cover;
+}
+.order-btn {
+  background: #ff8c00;
+  color: white;
+  border-radius: 8px;
+  width: 100%;
+}
+.carousel-btn {
+  background: linear-gradient(to bottom, #ffcc33, #ff8c00);
+  border: none;
+  width: 50px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel-btn:hover {
+  background: linear-gradient(to bottom, #ffb347, #ff6600);
+  transform: scale(1.1);
+}
+.cards-container {
+  overflow: hidden;
+  position: relative;
+}
+.cards:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.2);
+}
+.cards-wrapper {
+  display: flex;
+  width: 1445px;
+  gap: 15px;
+  transition: transform 0.5s ease;
+}
+.cards {
+  flex: 0 0 auto;
+  width: calc(20.55% - 20px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Restaurant Card */
+.restaurant-card {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.position-relative {
+  position: relative;
+}
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+.badges {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  gap: 8px;
+}
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.badge.discount {
+  background-color: #f27932;
+}
+.badge.fast {
+  background-color: #ffbb00;
+}
+.badge i {
+  font-size: 20px;
+}
+.card-body {
+  margin-top: 15px;
+  padding: 15px;
+}
+.card-body h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+.card-body p {
+  font-size: 1rem;
+  color: #ff8c00;
+}
+.card-body button {
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+/* Status Buttons */
+.btn-outline-warning {
+  background-color: #ff8c00;
+  color: white;
+  border: none;
+}
+.btn-success {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+.info {
+  display: flex;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.chat-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.chatbox {
+  width: 320px;
+  height: 450px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-messages {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-radius: 8px;
+  width: fit-content;
+  max-width: 70%;
+}
+
+.received {
+  background: #e9ecef;
+  align-self: flex-start;
+}
+
+.sent {
+  background: #ffc107;
+  align-self: flex-end;
+}
+
+.message .text {
+  padding: 8px 12px;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.received .text {
+  background: #e9ecef;
+}
+
+.sent .text {
+  background: #ffc107;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin: 0 8px;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+  flex-grow: 1;
+  margin-right: 5px;
+}

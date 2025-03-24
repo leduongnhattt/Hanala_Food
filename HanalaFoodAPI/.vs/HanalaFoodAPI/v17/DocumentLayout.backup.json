@@ -1,0 +1,409 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WebAPI\\HanalaFoodAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\repository\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\repository\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\repository\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\repository\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\services\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\services\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\models\\enterprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\models\\enterprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\dtos\\registeraccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\dtos\\registeraccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\dtos\\loginaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\dtos\\loginaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\services\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\services\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|d:\\webapi\\hanalafoodapi\\hanalafoodapi\\migrations\\20250303083722_rename column token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FE480-1325-4C01-A7EE-3528B58DA2DB}|HanalaFoodAPI\\HanalaFoodAPI.csproj|solutionrelative:hanalafoodapi\\migrations\\20250303083722_rename column token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Services\\UserService.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Services\\UserService.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Services\\UserService.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAwG0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:30:23.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HanalaFoodAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-01T15:14:02.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\appsettings.json",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\appsettings.json",
+              "RelativeToolTip": "HanalaFoodAPI\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-01T15:06:03.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRefreshTokenRepository.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Repository\\IRefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Repository\\IRefreshTokenRepository.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Repository\\IRefreshTokenRepository.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Repository\\IRefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T07:23:15.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Services\\JwtTokenService.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Services\\JwtTokenService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T15:08:25.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RefreshTokenRepository.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Repository\\RefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Repository\\RefreshTokenRepository.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Repository\\RefreshTokenRepository.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Repository\\RefreshTokenRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:37:00.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T06:49:22.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Models\\Account.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Models\\Account.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T06:46:41.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterAccountDTO.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\DTOs\\RegisterAccountDTO.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\DTOs\\RegisterAccountDTO.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\DTOs\\RegisterAccountDTO.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\DTOs\\RegisterAccountDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T15:20:31.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceResponse.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Services\\ServiceResponse.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Services\\ServiceResponse.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Services\\ServiceResponse.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Services\\ServiceResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T07:24:41.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T14:46:44.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Enterprise.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Models\\Enterprise.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Models\\Enterprise.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Models\\Enterprise.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Models\\Enterprise.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T09:09:02.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T07:15:12.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Models\\Customer.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Models\\Customer.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:27:56.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TokenResponseDTO.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\DTOs\\TokenResponseDTO.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\DTOs\\TokenResponseDTO.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\DTOs\\TokenResponseDTO.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\DTOs\\TokenResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:30:06.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250303083722_Rename Column Token.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Migrations\\20250303083722_Rename Column Token.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Migrations\\20250303083722_Rename Column Token.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Migrations\\20250303083722_Rename Column Token.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Migrations\\20250303083722_Rename Column Token.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:37:22.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Repository\\IUserRepository.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Repository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T06:47:58.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Models\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Models\\RefreshToken.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Models\\RefreshToken.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Models\\RefreshToken.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T07:11:05.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T07:24:06.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginAccountDTO.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\DTOs\\LoginAccountDTO.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\DTOs\\LoginAccountDTO.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\DTOs\\LoginAccountDTO.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\DTOs\\LoginAccountDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T07:15:09.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IJwtTokenService.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Services\\IJwtTokenService.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Services\\IJwtTokenService.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Services\\IJwtTokenService.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Services\\IJwtTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T06:59:53.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Models\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Models\\JwtSettings.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Models\\JwtSettings.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Models\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T15:06:32.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Program.cs",
+              "RelativeDocumentMoniker": "HanalaFoodAPI\\Program.cs",
+              "ToolTip": "D:\\WebAPI\\HanalaFoodAPI\\HanalaFoodAPI\\Program.cs",
+              "RelativeToolTip": "HanalaFoodAPI\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwD8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T15:04:54.841Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

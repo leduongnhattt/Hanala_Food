@@ -1,0 +1,13 @@
+body {
+  background-color: #f8f9fa;
+}
+.form-control {
+  border-radius: 10px;
+}
+.btn-danger {
+  border-radius: 10px;
+}
+.login-logo {
+  max-width: 100%;
+  max-height: 1200px;
+}

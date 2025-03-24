@@ -1,0 +1,21 @@
+<div class="containers mt-5">
+  <h3 class="fw-bold text-center">Popular items</h3>
+  <div class="d-flex align-items-center justify-content-center mt-3">
+    <div class="cards-container" *ngIf="foods.length > 0; else noData">
+      <div class="cards-wrapper">
+        <div *ngFor="let item of foods" class="cards food-card border-0 shadow">
+          <img [src]="item.image" class="card-img-top" [alt]="item.name">
+          <div class="card-body">
+            <h6 class="fw-bold">{{ item.name }}</h6>
+            <p class="text-warning mb-1"><i class="bi bi-geo-alt"></i> {{ item.location }}</p>
+            <p class="fw-bold">{{ item.price }}</p>
+            <button class="btn btn-warning" routerLink="/order">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ng-template #noData>
+      <p class="text-center text-muted">No popular items found.</p>
+    </ng-template>
+  </div>
+</div>

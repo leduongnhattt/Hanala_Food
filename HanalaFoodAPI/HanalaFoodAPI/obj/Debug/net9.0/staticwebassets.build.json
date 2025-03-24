@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "MtiRDHLD6koyQLos21vHxIc5XQP7+LMMMNK93JWE8MQ=",
+  "Source": "HanalaFoodAPI",
+  "BasePath": "_content/HanalaFoodAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
